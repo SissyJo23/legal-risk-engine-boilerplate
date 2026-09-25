@@ -1,0 +1,38 @@
+[
+  {
+    "id": "R-001",
+    "category": "Liability",
+    "name": "Unlimited Liability Clause",
+    "severity": "HIGH",
+    "patterns": ["unlimited liability", "no limitation of liability", "liable for all damages"],
+    "description": "Agreement lacks standard limitation of liability caps.",
+    "recommendation": "Insert a liability cap tied to 12 months of fees paid."
+  },
+  {
+    "id": "R-002",
+    "category": "Indemnification",
+    "name": "Broad Indemnification Scope",
+    "severity": "HIGH",
+    "patterns": ["indemnify and hold harmless", "indemnify from any and all claims"],
+    "description": "Indemnification obligations are unilateral or overly broad.",
+    "recommendation": "Mutualize indemnification and scope to third-party claims only."
+  },
+  {
+    "id": "R-003",
+    "category": "Termination",
+    "name": "Short Notice Termination for Convenience",
+    "severity": "MEDIUM",
+    "patterns": ["terminate without cause", "terminate for convenience within 10 days", "immediate termination"],
+    "description": "Short notice window allows counterparties to terminate unexpectedly.",
+    "recommendation": "Standardize termination notice period to at least 30–60 days."
+  },
+  {
+    "id": "R-004",
+    "category": "IP Rights",
+    "name": "Automatic IP Assignment",
+    "severity": "HIGH",
+    "patterns": ["sole property of client", "assign all right title and interest", "work for hire"],
+    "description": "Sweeping work-for-hire or pre-existing IP transfer clauses.",
+    "recommendation": "Explicitly exclude pre-existing IP and background tools."
+  }
+]
