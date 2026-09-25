@@ -1,0 +1,27 @@
+{
+  "name": "legal-risk-engine-boilerplate",
+  "version": "1.0.0",
+  "description": "Turnkey local risk assessment engine with schema validation and LLM provider abstraction layer.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "zod": "^3.23.8"
+  },
+  "keywords": [
+    "legaltech",
+    "risk-assessment",
+    "contract-analysis",
+    "express-boilerplate",
+    "llm-ready"
+  ],
+  "author": "",
+  "license": "MIT"
+}
